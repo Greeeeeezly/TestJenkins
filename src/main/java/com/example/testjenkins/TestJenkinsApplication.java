@@ -9,6 +9,7 @@ public class TestJenkinsApplication {
     public static void main(String[] args) {
         SpringApplication.run(TestJenkinsApplication.class, args);
         System.out.println("Hello world!");
+        System.out.println(System.currentTimeMillis());
     }
 
 }
